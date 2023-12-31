@@ -184,6 +184,7 @@ width: 150px;
     .box2{
         width: 70vw;
         margin-bottom: 60px;
+
     }
 }
 @media (max-width:400px){
@@ -192,6 +193,7 @@ width: 150px;
         flex-direction: column;
         height: 200px;
         width: 100vw;
+        margin-top: 30px;
         }
         .box2{
        
