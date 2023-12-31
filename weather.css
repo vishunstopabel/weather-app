@@ -186,3 +186,16 @@ width: 150px;
         margin-bottom: 60px;
     }
 }
+@media (max-width:400px){
+    .box1{
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+        width: 100vw;
+        }
+        .box2{
+       
+            width: 100vw;
+            margin-bottom: 60px;
+        }
+}
