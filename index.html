@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather app</title>
+     <link rel="shortcut icon" href="aceets/weather png/weather-app.png" type="image/x-icon">
+     <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    
+<div class="bgc">
+    <nav>
+        <div  class="logo"> <img src="aceets/weather png/sunny.png" alt="logo"> <label for="">weather-app</label></div>
+  </nav>
+  
+    <div class="main">
+        
+       
+        <div class="mainbox">
+            <div class="box1">
+                <img src="aceets/weather png/sunny.png"alt="" class="img">
+                <div class="temp"></div>
+                <p>Tempreture</p>                
+            </div>
+            <div class="box2">
+                 <div> <img src="aceets/weather png/humidity.png" alt=""> <div class="humiditiy"></div><p>Humidity</p></div>
+                 <div><img src="aceets/weather png/temperature.png" alt=""><div class="min_max_temp"></div><p>max-min Tempreture</p></div>
+                <div><img src="aceets/weather png/wind.png" alt=""><div class="windspeed"></div><p>Windspeed</p></div>
+              <div>  <img src="aceets/weather png/coloudpercentage.png" alt=""><div class="type"></div><p>Colody</p></div>
+            </div>
+        </div>
+    
+    </div>
+    <div class="input">
+        <input type="email" id="cityname" placeholder="Entre your city name">
+        <button class="find">search</button> 
+    </div>
+</div>
+<div class="wrong">
+    <img src="aceets/wrong.jpg" alt="wrong" class="imgwrong">
+      <p>Entre the proper city name
+         <div> (you can use only city name)</div>
+      </p>
+      <button class="bwrong">x</button>
+
+
+  </div>
+<script src="weather.js"></script>
+</body>
+</html>
